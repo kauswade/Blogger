@@ -1,9 +1,9 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $nav = $('.nav');
     $toggleCollapse = $('.toggle-collapse');
 
     /**click event on toggle menu */
-    $toggleCollapse.click(function() {
+    $toggleCollapse.click(function () {
         $nav.toggleClass('collapse');
     })
 
@@ -16,4 +16,11 @@ $(document).ready(function() {
         nav: true,
         navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
     });
+
+    // Click to scroll top
+    $('.move-up span').click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    })
 });

@@ -1,9 +1,9 @@
 /* @import url('/css/fonts.css'); */
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Livvic&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('//fonts.googleapis.com/css2?family=Livvic&display=swap');
 
 html, body {
     margin: 0%;
